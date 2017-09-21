@@ -10,11 +10,6 @@
     ]
   },
   "engines": {
-    "cordovaDependencies": {
-      "2.0.0": {
-        "cordova": ">100"
-      }
-    }
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
