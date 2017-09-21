@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.moust.cordova.videoplayer"
-    version="1.0.1">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.moust.cordova.videoplayer" version="1.0.1">
 
     <name>Video Player</name>
     <description>Native Video Player Plugin</description>
@@ -10,7 +7,6 @@
     <keywords>cordova,media,player,video</keywords>
     <repo>https://github.com/moust/cordova-plugin-videoplayer.git</repo>
     <issue>https://github.com/moust/cordova-plugin-videoplayer/issues</issue>
-
     <js-module src="www/videoplayer.js" name="VideoPlayer">
         <clobbers target="VideoPlayer" />
     </js-module>
